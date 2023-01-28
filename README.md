@@ -1,7 +1,6 @@
 # Skripte
 
-Scaffold-DbContext "Server=.;Database=BookStore;Trusted_Connection=True;" 
-Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Scaffold-DbContext "{string}" Microsoft.EntityFrameworkCore.SqlServer -OutputDir MojaBaza
 
 
 builder.Services.AddDbContext<GradoviContext>(options =>

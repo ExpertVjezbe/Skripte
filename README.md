@@ -13,7 +13,7 @@ builder.Services.AddDbContext<GradoviContext>(options =>
 
 
 yaml for publish
-
+`code`
 name: github pages learning
 
 on:
@@ -48,3 +48,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
         FOLDER: dist/Web/wwwroot
+    
+    `code`

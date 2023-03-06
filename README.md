@@ -52,19 +52,19 @@ jobs:
     `code`
     
     Publish to github pages
-1 create project
-2 create github repository
-3 publish code to main branch
-4 switch to actions
-5 Skip this and set up a workflow yourself 
-6 copy paste yaml definition
+- 1 create project
+- 2 create github repository
+- 3 publish code to main branch
+- 4 switch to actions
+- 5 Skip this and set up a workflow yourself 
+- 6 copy paste yaml definition
  run: dotnet publish replace with your csproj file
-7. save and commit
-8. check if workflow is set in actions
-9 go to actions->genaral and enable read write permissions
+- 7. save and commit
+- 8. check if workflow is set in actions
+- 9 go to actions->genaral and enable read write permissions
 
-10 switch to gh-pages branch abd go to pages
-11 select deploy from a branch
-12 select gh-pages and save
-13 go to your github domain address {username}.github.io/{reponame}
-14. setup url paths in index.html to absolute to your domain url address
+- 10 switch to gh-pages branch abd go to pages
+- 11 select deploy from a branch
+- 12 select gh-pages and save
+- 13 go to your github domain address {username}.github.io/{reponame}
+- 14. setup url paths in index.html to absolute to your domain url address

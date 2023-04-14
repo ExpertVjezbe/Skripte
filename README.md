@@ -1,3 +1,8 @@
+
+Endpoint za vjezbe G3
+https://expertshopapi.azurewebsites.net/swagger/index.html
+
+
 # Skripte
 
 Scaffold-DbContext "{string}" Microsoft.EntityFrameworkCore.SqlServer -OutputDir MojaBaza
